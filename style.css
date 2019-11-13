@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.header-container{
+	background-color: #191c27;;
+	position: relative;
+	}
+
+.navbar
+{
+	margin: auto;
+	max-width: 940px;
+		padding: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	z-index: 5;
+}
+
+
+
+.others > ul
+{
+	display: flex;
+	width: 350px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.others > ul > li > a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.others > ul > li{
+list-style: none;
+z-index: 1;
+}
+
+.box-1
+{
+ position: relative;
+ width: 100%;
+ height: 532px;
+ display: flex;
+ justify-content: center;
+ z-index: 4;
+}
+
+.box-container-1
+{
+	height: 532px;
+	background-color: white;
+	width:65%;
+	border-radius: 15px;
+	position: relative;
+	 z-index: 4;
+}
+
+
+
+.dots {
+	top: 0;
+    height: 260px;
+    width: 100%;
+    background: #191c27;
+    position: absolute;
+}
+
+
+
+.dots:before {
+
+    content: "";
+    position: absolute;
+    right: 12%;
+    bottom: 0;
+    width: 256px;
+    height: 200px;
+    background: #191c27;
+    background-image: radial-gradient(hsla(0,0%,100%,.05) 15%,transparent 0),radial-gradient(hsla(0,0%,100%,.05) 15%,transparent 0);
+    background-size: 25px 25px;
+    z-index: 3;
+}
+
+.intro
+{
+	width: 65%;
+}
